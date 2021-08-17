@@ -42,5 +42,5 @@ when "ruby"
 when "golang"
     puts "Curso não disponível!"
 else
-    puts "Não conheço essa linguagem!"
+    puts "Não conheço essa linguagem! Tente informar outra linguagem."
 end
