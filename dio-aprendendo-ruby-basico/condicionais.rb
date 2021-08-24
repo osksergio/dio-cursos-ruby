@@ -1,5 +1,5 @@
 puts "Informe um valor: "
-valor = gets.chomp.to_i  # o "to_i" serve para converter o formato string em integer
+valor = gets.chomp.to_i  # o "to_i" serve para converter o formato string em integer - alteração 01
 
 
 if valor > 20
