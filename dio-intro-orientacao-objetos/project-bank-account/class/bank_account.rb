@@ -9,7 +9,7 @@ class BankAccount
             debit(transferredAmount)
             destinationAccount.deposit(transferredAmount)
         else
-            puts "Não conseguir transferir! Saldo insuficiente."
+            puts "Não foi possível efetuar a transferência! Saldo insuficiente."
         end
     end
 
