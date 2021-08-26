@@ -5,11 +5,13 @@ class BankAccount
     end
 
     def transferir(destinationAccount, transferredAmount)
-        if (balance > transferredAmount)
+        puts "Saldo: #{balance} / Valor Transf.: #{transferredAmount}."
+
+        if (balance >= transferredAmount)
             debit(transferredAmount)
             destinationAccount.deposit(transferredAmount)
         else
-            puts "Não foi possível efetuar a transferência! Saldo insuficiente."
+            raise "Não foi possível efetuar a transferência! Saldo insuficiente."
         end
     end
 
