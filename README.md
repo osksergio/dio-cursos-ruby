@@ -11,9 +11,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão 2.7.4 da Linguagem Ruby e suas dependências.
 * Você instalou o Framework Ruby on Rails.
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para dio-cursos-ruby
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com dio-cursos-ruby, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
